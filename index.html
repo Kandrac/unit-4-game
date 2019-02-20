@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zelda Rupee Collector</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Jura|Montserrat+Alternates|Press+Start+2P" rel="stylesheet">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/game.js"></script> 
+
+        
+
+</head>
+
+<body>
+
+        <div class="jumbotron text-center">
+                <h1>Rupee Collector</h1></div>
+            
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 rules">
+                        <h2>Rules</h2> 
+                        <p>You will be given a random number at the start of the game.</p>
+                        <p>There are four rupees below. By clicking on a Rupee you will add a specific amount of points to your total score.</p>
+                        <p>You win the game by matching your total score to the random number. You lost the game if your total score goes above the random number.</p>
+                        <p>The value of each Rupee is hidden from you until you click on it.</p>
+                      </div>
+                    </div>
+                  </div>
+            
+                <div class="row">
+                  <div class="col-sm-3">
+                    <h2>Magic number: <span id="magicNumber"></span></h2>
+                  </div>
+
+                <div class="row text-center">
+                <div class="col-sm-3 ">
+                <img src="assets/images/red-rupee.png" class="img-thumnail red" alt="Red Rupee" width="200" height="200" />
+                </div>
+                <div class="col-sm-3  ">
+                <img src="assets/images/blue-rupee.png" class="img-thumnail blue" alt="Blue Rupee" width="200" height="200" />
+                </div>
+                <div class="col-sm-3 ">
+                <img src="assets/images/purple-rupee.png" class="img-thumnail purple" alt="Purple Rupee" width="200" height="200" />
+                </div>
+                <div class="col-sm-3 ">
+                  <img src="assets/images/green-rupee.png" class="img-thumnail green" alt="Green Rupee" width="200" height="200" />
+                </div>
+              </div>
+                </div>
+               </div>
+              <div class="row">
+                <div class="col-sm-12 ">
+                <h3>Current Total: <span id="currentTotal"></span></h3>
+                <h3>Wins: <span id="wins"></span></h3>
+                <h3>Losses: <span id="losses"></span></h3>
+              </div>
+            </div>
+        
+            
+            </div>
+            </div>
+        
+        
+</body>
+</html>

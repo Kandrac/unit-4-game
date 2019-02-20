@@ -1,0 +1,43 @@
+.jumbotron {
+    background-size: cover;
+    margin-bottom: -.4%;
+    background-color: forestgreen;
+  }
+  body { 
+      font-family: 'Montserrat Alternates', sans-serif;
+      text-align: center;
+      background-image: url(../images/zelda.jpg);
+      color:black;
+      
+  }
+  .jumbotron h1 {
+    color: #000;
+    font-family:'Press Start 2P', cursive; 
+    font-size: 30px;
+  
+  
+  }
+  
+  .rules {
+    text-align: center; 
+    border: 1px;
+    color: black ;
+    font-weight: bold;
+    display: inline;
+    padding: 25px;
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;
+ }
+
+ h3{
+   margin-top: 2%;
+   color: yellow;
+}
+
+h2{
+  color:gold;
+  font-size: 25px;
+ 
+  
+}
+
